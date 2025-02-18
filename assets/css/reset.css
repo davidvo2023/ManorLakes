@@ -1,0 +1,145 @@
+/* Reset margin, padding, and box-sizing */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set root font size and smooth scrolling */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+/* Remove default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Ensure images and videos are responsive */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reset form elements */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Ensure buttons have proper styling */
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+/* Reset table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Ensure table cells have padding */
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+}
+/*end reset*/
+
+
+/*owner lib*/
+.text-underline{
+  text-decoration: underline;
+}
+
+
+
+
+/* Hidden on mobile (less than 768px) */
+.hidden{
+  display: none  !important;
+}
+
+
+@media (max-width: 767px) {
+.hidden-mobile {
+  display: none !important;
+}
+}
+@media (min-width: 768px) {
+  .hidden-mobile {
+    display: block;
+  }
+}
+
+/* Hidden on tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hidden-tablet {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hidden-tablet {
+    display: block;
+  }
+}
+
+/* Hidden on desktop (1024px and above) */
+@media (min-width: 1024px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hidden-desktop {
+    display: block;
+  }
+}
+
+/* Visible only on mobile (less than 768px) */
+.visible-mobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .visible-mobile {
+    display: none !important;
+  }
+}
+
+/* Visible only on tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .visible-tablet {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .visible-tablet {
+    display: none;
+  }
+}
+
+/* Visible only on desktop (1024px and above) */
+@media (min-width: 1024px) {
+  .visible-desktop {
+    display: block;
+  }
+}
+
+@media (max-width: 1023px) {
+  .visible-desktop {
+    display: none;
+  }
+}

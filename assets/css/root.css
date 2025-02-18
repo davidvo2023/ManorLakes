@@ -1,0 +1,19 @@
+:root {
+  /* Color variables */
+  --color-body-text: #274D4D;
+  --color-background-button: #E6CB83;
+  --color-dark: #000000;
+  --color-light: #F8F8F8;
+  --color-green: #89B78A;
+
+  /* Typography variables */
+  --font-size-h2: 55px;
+  --line-height-h2: 120%;
+
+  --font-size-h3: 45px;
+
+  --font-size-h4: 40px;
+
+  --font-size-body-text: 16px;
+  --line-height-body-text: 130%;
+}
