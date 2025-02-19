@@ -108,7 +108,7 @@ p.denis-banner__desc {
 }
 
 .denis-highlight__content {
-  padding: 74px;
+  padding: 10px 74px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,7 +227,9 @@ p.carousel-partner__desc {
 .denis-posts__slider_content img {
   width: 100%;
 }
-
+.strong-price__content h3 {
+    line-height: 120%;
+}
 .denis-posts ul.slick-dots {
   display: flex;
   width: 94%;
