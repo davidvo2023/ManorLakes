@@ -64,11 +64,23 @@ $(document).ready(function() {
                     }
                 ]
             });
-            $('.custom-prev').click(function() {
-                $('.denis-posts__slider').slick('slickPrev');
-            });
-            $('.custom-next').click(function() {
-                $('.denis-posts__slider').slick('slickNext');
-            });
+        $('.custom-prev').click(function() {
+            $('.denis-posts__slider').slick('slickPrev');
+        });
+        $('.custom-next').click(function() {
+            $('.denis-posts__slider').slick('slickNext');
+        });
+        const lenis = new Lenis()
+
+        lenis.on('scroll', (e) => {
+          console.log(e)
+        })
+
+        function raf(time) {
+          lenis.raf(time)
+          requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
     
 });

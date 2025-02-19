@@ -48,7 +48,9 @@ h6 {
 }
 
 .denis-container {
-  padding: 0 90px;
+  max-width: 1258px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .denis-header {
@@ -140,14 +142,14 @@ p.carousel-partner__desc {
 }
 
 .slider_1 {
-  width: calc(100% + 180px);
-  margin-left: -90px;
+  /* width: calc(100% + 180px);
+  margin-left: -90px;*/
 }
 
 .slider_2 {
-  width: calc(100% + 180px);
+  /*  width: calc(100% + 180px);*/
   margin-top: 20px;
-  margin-left: -90px;
+  /*  margin-left: -90px;*/
 }
 
 .carousel-partner__slides .slick-slide img {
@@ -580,7 +582,48 @@ select.what_type.form_input {
   margin-top: 30px;
   padding: 15px 80px;
 }
+.tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  z-index: 33;
+  padding: 5px;
+  border-radius: 4px;
 
+  /* Positioning the tooltip */
+  position: absolute;
+  /* z-index: 1; */
+  /* Position it below the element */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.denis-map a:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+.denis-map a {
+  position: relative;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 9px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
 @media only screen and (max-width: 767px) {
   .denis-container {
     padding: 0;
@@ -906,5 +949,9 @@ select.what_type.form_input {
     flex-direction: column-reverse;
     align-items: center;
     gap: 9px;
+  }
+  .placeholder_text {
+    font-size: 14px;
+    padding: 5px;
   }
 }

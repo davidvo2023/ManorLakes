@@ -1,0 +1,54 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+
+p,
+a,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  color: #274d4d;
+}
+
+p,
+a,
+button {
+  font-size: 16px;
+  line-height: 25px;
+}
+h2 {
+  font-size: 55px;
+  line-height: 120%;
+}
+h3 {
+  font-size: 40px;
+  line-height: 75px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+.font-small,
+.font-small a {
+  font-size: 12px;
+}
+
+.denis-container {
+  max-width: 1258px;
+  margin: 0 auto;
+  overflow: hidden;
+}
