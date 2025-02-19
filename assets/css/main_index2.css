@@ -169,6 +169,7 @@ h4.bottom-header__heading {
 .font-small,
 .font-small a {
   font-size: 12px;
+  color: #000000;
 }
 .denis-highlight__content .denis-button {
   margin: 37px 0;
