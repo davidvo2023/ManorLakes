@@ -192,9 +192,13 @@ h4.bottom-header__heading {
   padding: 69px 125px;
   margin-top: 62px;
   text-align: center;
-  /* border: 1.5px solid #000000D9; */
+ 
 }
-
+.bottom-header__bottom-item:last-child {
+    padding-right: 0;
+    border: navajowhite;
+    margin-right: 0;
+}
 .denis-form-register.form-register h3 {
   color: #ffffff;
   /* text-align: center; */
