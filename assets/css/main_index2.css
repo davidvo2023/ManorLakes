@@ -14,6 +14,7 @@ h5,
 h6 {
   color: #006271;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 p,
@@ -89,7 +90,9 @@ h1.denis-banner__heading {
   font-weight: 600;
   text-transform: uppercase;
 }
-
+img.bottom-header__icon {
+    height: 34px;
+}
 .denis-button {
   background: #f68350;
   padding: 18px 68px;
@@ -391,6 +394,8 @@ h3.carousel-partner__heading {
 
 .carousel-partner__slides .slick-slide {
   display: flex !important;
+  height: 71px;
+      margin: 0 10px;
   justify-content: center;
   align-items: center;
 }

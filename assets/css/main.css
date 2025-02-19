@@ -163,6 +163,8 @@ p.carousel-partner__desc {
 .carousel-partner__slides .slick-slide {
   display: flex !important;
   justify-content: center;
+  height: 71px;
+      margin: 0 10px;
   align-items: center;
 }
 .carousel-partner__slides .slider_2 .slick-slide {
